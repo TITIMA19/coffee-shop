@@ -1,0 +1,44 @@
+body{
+    header{
+        height:60px;
+        width: 100%; 
+        background-image:url(/assets/image/background\ image.jpg) ; 
+        background-repeat: no-repeat;
+        background-size:  cover;
+        background-position:center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .navicon{
+          img{
+            width:30px;
+            height:30px;
+            box-shadow:  5px 5px 5px #E3A21F ;
+          }
+          }
+        .logo{
+          img{
+            width:30px;
+            height:30px;
+            border-radius: 50px;
+          }
+          }
+    }
+    main{
+        background-color:#DFB257;
+        height: 70vh;
+        .list{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            a{
+              text-decoration: none;
+              cursor: pointer;
+              color:black;
+            }
+            
+          }
+
+    }
+}
