@@ -20,23 +20,27 @@ body{
           box-shadow:  5px 5px 5px #E3A21F ;
         }
      
-    
+      .list{
+        text-decoration: none;
       }
-      /* .list{
-        a { 
-          display: none;
-
-      }
-       } */
-      
+       }
+   
      
-    .logo{
-      img{
-        width:30px;
-        height:30px;
-        border-radius: 50px;
-      }
-      }
+       .logo{
+        border: solid #DFB257;
+        padding: 2%;
+        border-radius: 100%;
+        display: flex;
+        flex-wrap: wrap;
+           p{ 
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              font-style: oblique;
+              font-size: medium;
+              text-decoration:underline;
+              color: #DFB257;
+              
+             }  
+         } 
 }
 main{
    background-color:#DFB257;
@@ -88,23 +92,22 @@ main{
       background-position:center;
       display: flex;
       justify-content: space-between;
-      align-items: center;
-  
+
       .icon{
         display: none;
       }
-      .list {
-        a{ 
-          display: inline-block;
-          text-decoration: none;
-          cursor: pointer;
-          color: #DFB257;
-        }
-         
-       
-        
-      }
+    .list {
+      display: flex;
       
+         a{
+          margin-right: 5%;
+          text-decoration: none;
+          color: #b0700adb;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-size: 120%;
+          
+         }
+      }  
     }
   }
   

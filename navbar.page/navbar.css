@@ -17,13 +17,21 @@ body{
             box-shadow:  5px 5px 5px #E3A21F ;
           }
           }
-        .logo{
-          img{
-            width:30px;
-            height:30px;
-            border-radius: 50px;
-          }
-          }
+          .logo{
+            border: solid #DFB257;
+            padding: 2%;
+            border-radius: 100%;
+            display: flex;
+            flex-wrap: wrap;
+               p{ 
+                  font-family: Georgia, 'Times New Roman', Times, serif;
+                  font-style: oblique;
+                  font-size: medium;
+                  text-decoration:underline;
+                  color: #DFB257;
+                  
+                 }  
+             } 
     }
     main{
         background-color:#DFB257;
@@ -41,4 +49,6 @@ body{
           }
 
     }
+   
+ 
 }
